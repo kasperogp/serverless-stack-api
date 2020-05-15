@@ -20,7 +20,7 @@ test("Middle tier", () => {
 
 test("Highest tier", () => {
   const storage = 101;
-  
+                            
   const cost = 10100;
   const expectedCost = calculateCost(storage);
 
